@@ -1,0 +1,5 @@
+URxvt.background: black
+URxvt.foreground: lightgray
+URxvt.font: -*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*
+URxvt.scrollBar: plain
+URxvt.urgentOnBell: True
