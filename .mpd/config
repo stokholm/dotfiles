@@ -1,0 +1,4 @@
+music_directory         "~/music"
+playlist_directory      "~/.mpd/playlists"
+db_file                 "~/.mpd/database"
+bind_to_address		"127.0.0.1"
