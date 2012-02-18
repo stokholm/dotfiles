@@ -10,6 +10,9 @@ export PATH=${HOME}/scripts:${PATH}
 # Use a localized time format
 export LC_TIME=da_DK.UTF-8
 
+# Purge unwanted files
+yes | purge
+
 # Start the Music Player Daemon if it isn't running
 [[ -z "$(pidof mpd)" ]] && mpd ${HOME}/.mpd/config 2>/dev/null
 
