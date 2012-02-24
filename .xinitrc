@@ -18,7 +18,7 @@ xset +fp /usr/share/fonts/local
 xset fp rehash
 
 # Set the screen standby time
-xset dpms 300
+xset dpms 300 s off
 
 # Automatically lock session if inactive
 xautolock -time 10 -locker slock -notify 30 &
